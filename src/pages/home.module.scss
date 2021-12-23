@@ -1,1 +1,39 @@
-// TODO
+.postContent {
+  max-width: 1120px;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  display: block;
+  text-decoration: none;
+
+  h1 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: var(--heading);
+  }
+
+  p {
+    font-size: 1.125rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--body);
+  }
+
+  transition: filter 0.2s;
+  &:hover {
+    filter: brightness(0.6);
+  }
+}
+
+.morePosts {
+  border: none;
+  background: none;
+  color: var(--highlight);
+  font-size: 1.125rem;
+  font-weight: 600;
+
+  margin: 0 0 4rem 0;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

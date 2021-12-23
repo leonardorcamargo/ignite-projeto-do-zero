@@ -1,1 +1,28 @@
-// TODO
+.container {
+  max-width: 1120px;
+  margin: auto;
+}
+
+.info {
+  margin-top: 1.5rem;
+  color: var(--info);
+}
+
+.publicationDate {
+  font-size: 0.875rem;
+}
+
+.author {
+  font-size: 0.875rem;
+  margin-left: 1.5rem;
+}
+.timeToRead {
+  font-size: 0.875rem;
+  margin-left: 1.5rem;
+}
+
+.icon {
+  margin-right: 0.5rem;
+  width: 20px;
+  height: 20px;
+}
